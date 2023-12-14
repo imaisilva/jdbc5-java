@@ -21,7 +21,7 @@ public class Program {
 					"DELETE FROM department "
 					+ "WHERE "
 					+ "Id = ?");
-			st.setInt(1, 2);
+			st.setInt(1, 5);
 			
 			int rowsAffected = st.executeUpdate();
 			
